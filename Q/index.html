@@ -66,8 +66,7 @@
     </div>
 
     <!-- dummy space -->
-    <div style="height: 500px">
-      <br>
+    <div class="p-4" style="height: 500px">
     </div>
 
     <!-- Footer -->
@@ -164,13 +163,12 @@
 
         var scroll = (function (event) {
           var scroll = $(window).scrollTop();
-          if (scroll < 150) {
+          if (scroll < 250) {
             $(navigatopnBar).css('background-color', 'transparent');
             $(navigationLogo).css('width', '0');
             $(navigationLogo).addClass('invisible');
           } else {
-            var opacity = (scroll - 150) * 0.004;
-            $(navigatopnBar).css('background-color', 'rgba(0, 40, 56, ' + (opacity > 0.9 ? 0.9 : opacity) + ')');
+            $(navigatopnBar).css('background-color', 'rgba(0, 40, 56, 0.9)');
             $(navigationLogo).css('width', '');
             $(navigationLogo).removeClass('invisible');
           }
