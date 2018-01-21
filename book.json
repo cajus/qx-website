@@ -14,6 +14,10 @@
       "label": "Edit this page",
       "placement": "left"
     },
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    },
     "layout": {
       "headerPath" : "layouts/header.html"
     }
