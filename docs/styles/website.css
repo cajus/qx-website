@@ -1,0 +1,26 @@
+html {
+  font-size: initial;
+}
+
+body {
+  letter-spacing: initial;
+}
+
+#navbarNav.collapsing, #navbarNav.collapse.show {
+  background-color: rgba(0,0,0,.9);
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#navigatopnBar {
+  background-color: rgba(0, 40, 56, 0.9);
+}
+
+.carousel-indicators li {
+  background-color: #EEE;
+}
+
+.carousel-indicators li.active {
+  background-color: #AAA;
+}

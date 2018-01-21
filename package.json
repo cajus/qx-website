@@ -1,0 +1,35 @@
+{
+  "name": "@qooxdoo/docs",
+  "description": "Qooxdoo documentation and web site",
+  "version": "0.1.0",
+  "keywords": [
+    "qooxdoo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qooxdoo/docs.git"
+  },
+  "author": {
+    "name": "Cajus Pollmeier",
+    "email": "cajus@naasa.net"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/qooxdoo/docs/issues"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "build:pdf": "gitbook pdf . ./viatraffic-technical.pdf",
+    "watch": "gitbook serve",
+    "install": "gitbook install"
+  },
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}

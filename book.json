@@ -1,0 +1,21 @@
+{
+  "root": "docs",
+  "plugins": [
+    "heading-anchors",
+    "include-codeblock",
+    "edit-link",
+    "advanced-emoji",
+    "hints",
+    "-fontsettings"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/qooxdoo/docs/edit/master",
+      "label": "Edit this page",
+      "placement": "left"
+    },
+    "layout": {
+      "headerPath" : "layouts/header.html"
+    }
+  }
+}
