@@ -4,8 +4,8 @@
     "heading-anchors",
     "include-codeblock",
     "edit-link",
-    "advanced-emoji",
     "hints",
+    "favicon",
     "-fontsettings"
   ],
   "pluginsConfig": {
@@ -18,8 +18,9 @@
       "facebook": false,
       "twitter": false
     },
-    "layout": {
-      "headerPath" : "layouts/header.html"
+    "favicon":{
+        "shortcut": "assets/favicon.png",
+        "bookmark": "assets/favicon.png"
     }
   }
 }
