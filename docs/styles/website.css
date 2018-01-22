@@ -2,6 +2,10 @@ html {
   font-size: initial;
 }
 
+.gitbook-link {
+  display: none !important;
+}
+
 body {
   letter-spacing: initial;
 }
